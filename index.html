@@ -1,0 +1,675 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title>CCCPsoft - 苏软操作系统公司 | 苏维埃软件工业集团</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body bgcolor="#CC0000" text="#000000" link="#FFD700" vlink="#FF8C00" alink="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<!-- 顶部横幅 -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#8B0000">
+    <tr>
+        <td align="center">
+            <table width="800" border="0" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td width="150" valign="middle">
+                        <table width="100" height="100" bgcolor="#FFD700" border="1" bordercolor="#8B0000">
+                            <tr><td align="center" valign="middle">
+                                <font face="Arial Black" size="6" color="#CC0000">☭</font><br>
+                                <font face="宋体" size="1" color="#CC0000"><b>CCCP</b></font>
+                            </td></tr>
+                        </table>
+                    </td>
+                    <td valign="middle">
+                        <font face="黑体" size="7" color="#FFD700"><b>CCCPsoft</b></font><br>
+                        <font face="Times New Roman" size="5" color="#FFFFFF"><i>Soviet Software Industries</i></font><br>
+                        <font face="宋体" size="4" color="#FFFFFF">苏软操作系统公司 - 苏维埃软件工业集团</font>
+                    </td>
+                    <td width="200" valign="top" align="right">
+                        <font face="宋体" size="2" color="#FFD700">
+                            <b>☭ 为人民服务 ☭</b><br>
+                            建于 1991<br>
+                            莫斯科·北京
+                        </font>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- 导航栏 -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFD700">
+    <tr>
+        <td align="center">
+            <table width="800" border="0" cellspacing="0" cellpadding="5">
+                <tr>
+                    <td align="center" width="16%"><a href="#home"><font face="黑体" size="3" color="#8B0000"><b>首页</b></font></a></td>
+                    <td align="center" width="16%"><a href="#keygen"><font face="黑体" size="3" color="#8B0000"><b>密钥申请</b></font></a></td>
+                    <td align="center" width="16%"><a href="#download"><font face="黑体" size="3" color="#8B0000"><b>下载中心</b></font></a></td>
+                    <td align="center" width="16%"><a href="#verify"><font face="黑体" size="3" color="#8B0000"><b>密钥验证</b></font></a></td>
+                    <td align="center" width="16%"><a href="#history"><font face="黑体" size="3" color="#8B0000"><b>申请记录</b></font></a></td>
+                    <td align="center" width="16%"><a href="#faq"><font face="黑体" size="3" color="#8B0000"><b>常见问题</b></font></a></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- 主内容区 -->
+<table width="800" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+    <tr>
+        <!-- 左侧边栏 -->
+        <td width="200" valign="top" bgcolor="#F0F0F0" style="border-right: 2px solid #CC0000;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td bgcolor="#CC0000">
+                        <font face="黑体" size="3" color="#FFD700"><b>☭ 快速导航</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font face="宋体" size="2">
+                        • <a href="#keygen">密钥申请</a><br><br>
+                        • <a href="#download">下载中心</a><br><br>
+                        • <a href="#verify">验证密钥</a><br><br>
+                        • <a href="#history">申请记录</a>
+                        </font>
+                    </td>
+                </tr>
+                
+                <tr><td height="20"></td></tr>
+                
+                <!-- 密钥状态面板 -->
+                <tr>
+                    <td bgcolor="#8B0000" align="center" style="padding: 10px; border: 2px solid #FFD700;">
+                        <font face="黑体" size="3" color="#FFD700"><b>☭ 密钥状态 ☭</b></font><br>
+                        <div id="sidebarStatus" style="margin-top: 5px;">
+                            <font face="宋体" size="2" color="#FFFFFF">
+                                未申请密钥<br>
+                                <a href="#keygen" style="color: #FFD700;"><u>[立即申请]</u></a>
+                            </font>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr><td height="20"></td></tr>
+                
+                <!-- 实时时钟 -->
+                <tr>
+                    <td bgcolor="#000000" align="center" style="padding: 10px; border: 1px solid #FFD700;">
+                        <font face="Courier New" size="2" color="#00FF00">莫斯科时间<br>
+                        <span id="clock" style="font-size: 14px; font-weight: bold;">00:00:00</span><br>
+                        <span id="date" style="font-size: 10px;">1991-12-25</span>
+                        </font>
+                    </td>
+                </tr>
+                
+                <tr><td height="20"></td></tr>
+                
+                <tr>
+                    <td align="center">
+                        <table width="90%" border="1" bordercolor="#CC0000" cellpadding="5" bgcolor="#FFFFFF">
+                            <tr><td align="center">
+                                <font face="宋体" size="2" color="#CC0000">
+                                <b>访问统计</b><br>
+                                您是第<br>
+                                <font size="4" color="#FF0000"><b>00008947</b></font><br>
+                                位同志
+                                </font>
+                            </td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        
+        <!-- 主内容 -->
+        <td width="600" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="20">
+                
+                <!-- 欢迎横幅 -->
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#CC0000">
+                            <tr>
+                                <td align="center" style="padding: 20px;">
+                                    <font face="黑体" size="6" color="#FFD700">
+                                    <b>☭ 欢迎访问CCCPsoft ☭</b>
+                                    </font><br>
+                                    <font face="宋体" size="3" color="#FFFFFF">
+                                    为全人类的计算机普及事业而奋斗！
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        <table width="100%" border="0" cellspacing="0" cellpadding="10" bgcolor="#FFE4B5">
+                            <tr>
+                                <td>
+                                    <font face="宋体" size="2" color="#8B0000">
+                                    <b>安全公告：</b>本站点已实施<strong>CCCP-KEY密钥管理系统</strong>。所有操作系统下载需持有有效下载密钥。密钥免费申请，即时生效。
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                <!-- 密钥申请系统 -->
+                <tr>
+                    <td>
+                        <a name="keygen"></a>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr bgcolor="#8B0000">
+                                <td style="padding: 5px;">
+                                    <font face="黑体" size="4" color="#FFD700"><b>☭ 下载密钥申请系统 ☭</b></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        
+                        <table width="100%" border="1" bordercolor="#8B0000" cellspacing="0" cellpadding="15" bgcolor="#FFF8DC">
+                            <tr>
+                                <td>
+                                    <font face="宋体" size="2">
+                                    <b>申请说明：</b>填写下方表格，系统将生成专属下载密钥（格式：<font color="#CC0000" face="Courier New"><b>CCCP-XXXX-XXXX-XXXX</b></font>）<br><br>
+                                    
+                                    <form name="keyForm" onsubmit="return false;">
+                                        <table width="100%" border="0" cellspacing="5" cellpadding="0">
+                                            <tr>
+                                                <td width="25%"><font face="宋体" size="2"><b>您的姓名：</b></font></td>
+                                                <td width="75%"><input type="text" name="username" size="30" style="font-family:宋体; font-size:12px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><font face="宋体" size="2"><b>所在单位：</b></font></td>
+                                                <td><input type="text" name="organization" size="30" style="font-family:宋体; font-size:12px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><font face="宋体" size="2"><b>申请用途：</b></font></td>
+                                                <td>
+                                                    <select name="purpose" style="font-family:宋体; font-size:12px; width: 200px;">
+                                                        <option value="research">历史研究/教育</option>
+                                                        <option value="retro">复古计算机收藏</option>
+                                                        <option value="emu">虚拟机测试</option>
+                                                        <option value="other">其他</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><font face="宋体" size="2"><b>验证码：</b></font></td>
+                                                <td>
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td>
+                                                                <div id="captchaBox" style="background-color: #000000; padding: 5px; display: inline-block;">
+                                                                    <font face="Courier New" size="4" color="#00FF00"><b id="captchaText">8K3M</b></font>
+                                                                </div>
+                                                            </td>
+                                                            <td width="10"></td>
+                                                            <td><input type="text" name="captcha" size="6" maxlength="4" style="font-family:Courier New; font-size:14px; text-transform: uppercase;"></td>
+                                                            <td width="10"></td>
+                                                            <td><font face="宋体" size="1"><a href="javascript:void(0)" onclick="refreshCaptcha()" style="color: #CC0000;"><u>[刷新]</u></a></font></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" align="center" style="padding-top: 15px;">
+                                                    <button onclick="generateKey()" style="font-family:黑体; font-size:14px; background-color:#CC0000; color:#FFD700; border:3px outset #CC0000; padding: 5px 20px; cursor: pointer;">
+                                                        ☭ 生成下载密钥 ☭
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                    
+                                    <!-- 成功显示区域 -->
+                                    <div id="successBox" style="display: none; margin-top: 20px; padding: 15px; background-color: #CC0000; border: 3px solid #FFD700; text-align: center;">
+                                        <font face="黑体" size="3" color="#FFD700"><b>您的专属下载密钥</b></font><br><br>
+                                        <div style="background-color: #000000; border: 2px inset #666666; padding: 10px; display: inline-block;">
+                                            <font face="Courier New" size="5" color="#00FF00"><b id="generatedKey">CCCP-0000-0000-0000</b></font>
+                                        </div><br><br>
+                                        <font face="宋体" size="2" color="#FFFFFF">
+                                        <b style="color: #FFD700;">请立即抄录！</b> 此密钥仅显示一次<br>
+                                        有效期：24小时 | 下载次数限制：5次<br>
+                                        <a href="#download" style="color: #FFD700;"><u>[前往下载中心]</u></a>
+                                        </font>
+                                    </div>
+                                    
+                                    <!-- 错误显示区域 -->
+                                    <div id="errorBox" style="display: none; margin-top: 20px; padding: 10px; background-color: #8B0000; border: 2px solid #FF0000; text-align: center;">
+                                        <font face="黑体" size="3" color="#FFD700"><b>⚠ 申请被拒绝 ⚠</b></font><br>
+                                        <font face="宋体" size="2" color="#FFFFFF" id="errorText">错误信息</font>
+                                    </div>
+                                    
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                <!-- 密钥验证器 -->
+                <tr>
+                    <td>
+                        <a name="verify"></a>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr bgcolor="#8B0000">
+                                <td style="padding: 5px;">
+                                    <font face="黑体" size="4" color="#FFD700"><b>☭ 密钥验证器 ☭</b></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        
+                        <table width="100%" border="1" bordercolor="#666666" cellspacing="0" cellpadding="10" bgcolor="#F0F0F0">
+                            <tr>
+                                <td align="center">
+                                    <font face="宋体" size="2">
+                                    输入您的下载密钥以验证有效性：<br><br>
+                                    <input type="text" id="verifyInput" size="25" maxlength="19" style="font-family:Courier New; font-size:16px; text-align:center; text-transform: uppercase;" placeholder="CCCP-XXXX-XXXX-XXXX"><br><br>
+                                    <button onclick="verifyKey()" style="font-family:黑体; background-color:#0066CC; color:#FFFFFF; border:2px outset #0066CC; cursor: pointer;">
+                                        验证密钥
+                                    </button>
+                                    <br><br>
+                                    <div id="verifyResult"></div>
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                <!-- 申请记录 -->
+                <tr>
+                    <td>
+                        <a name="history"></a>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr bgcolor="#8B0000">
+                                <td style="padding: 5px;">
+                                    <font face="黑体" size="4" color="#FFD700"><b>☭ 密钥申请记录 ☭</b></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        
+                        <table width="100%" border="1" bordercolor="#8B0000" cellpadding="8" cellspacing="0" bgcolor="#FFF8DC">
+                            <tr bgcolor="#CC0000">
+                                <td width="15%"><font face="宋体" size="2" color="#FFD700"><b>时间</b></font></td>
+                                <td width="20%"><font face="宋体" size="2" color="#FFD700"><b>申请人</b></font></td>
+                                <td width="25%"><font face="宋体" size="2" color="#FFD700"><b>单位</b></font></td>
+                                <td width="30%"><font face="宋体" size="2" color="#FFD700"><b>密钥</b></font></td>
+                                <td width="10%"><font face="宋体" size="2" color="#FFD700"><b>状态</b></font></td>
+                            </tr>
+                            <tbody id="historyTable">
+                                <tr>
+                                    <td colspan="5" align="center">
+                                        <font face="宋体" size="2" color="#666666">暂无申请记录</font>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <font face="宋体" size="1" color="#666666">
+                        * 本记录仅保存在当前浏览器会话中，刷新页面后重置
+                        </font>
+                    </td>
+                </tr>
+                
+                <!-- 下载中心 -->
+                <tr>
+                    <td>
+                        <a name="download"></a>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr bgcolor="#8B0000">
+                                <td style="padding: 5px;">
+                                    <font face="黑体" size="4" color="#FFD700"><b>☭ 软件下载中心 ☭</b></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        
+                        <!-- 锁定状态 -->
+                        <div id="lockedArea">
+                            <table width="100%" border="1" bordercolor="#CC0000" cellpadding="20" cellspacing="0" bgcolor="#FFE4E1">
+                                <tr>
+                                    <td align="center">
+                                        <font face="黑体" size="4" color="#8B0000">🔒 下载区域已锁定</font><br><br>
+                                        <font face="宋体" size="2">
+                                        您需要提供有效的CCCP-KEY下载密钥才能访问软件镜像。<br><br>
+                                        <a href="#keygen" style="color: #CC0000; font-size: 14px;"><b>[☭ 点击申请下载密钥 ☭]</b></a>
+                                        </font>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <!-- 解锁状态 -->
+                        <div id="unlockedArea" style="display: none;">
+                            <table width="100%" border="1" bordercolor="#228B22" cellpadding="10" cellspacing="0" bgcolor="#F0FFF0">
+                                <tr bgcolor="#228B22">
+                                    <td colspan="5" align="center">
+                                        <font face="黑体" size="3" color="#FFD700">
+                                        ✅ 密钥验证通过 | 剩余下载次数：<span id="downloadCount">5</span>
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr bgcolor="#E0FFE0">
+                                    <td width="25%"><font face="宋体" size="2"><b>系统名称</b></font></td>
+                                    <td width="15%"><font face="宋体" size="2"><b>架构</b></font></td>
+                                    <td width="15%"><font face="宋体" size="2"><b>大小</b></font></td>
+                                    <td width="20%"><font face="宋体" size="2"><b>提取码</b></font></td>
+                                    <td width="25%"><font face="宋体" size="2"><b>操作</b></font></td>
+                                </tr>
+                                <tr>
+                                    <td><font face="宋体" size="2"><b>Soviet 2000</b></font></td>
+                                    <td><font face="宋体" size="2">16/32位</font></td>
+                                    <td><font face="宋体" size="2">15MB</font></td>
+                                    <td><font face="Courier New" size="2" color="#CC0000"><b>raaq</b></font></td>
+                                    <td>
+                                        <a href="https://www.123865.com/s/NC0ejv-ypGUh" target="_blank" onclick="return useDownload()">
+                                            <font face="宋体" size="2" color="#228B22"><u>[立即下载]</u></font>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr bgcolor="#F5F5F5">
+                                    <td><font face="宋体" size="2"><b>Soviet NT</b></font></td>
+                                    <td><font face="宋体" size="2">32位</font></td>
+                                    <td><font face="宋体" size="2">65MB</font></td>
+                                    <td><font face="Courier New" size="2" color="#0066CC"><b>WpXA</b></font></td>
+                                    <td>
+                                        <a href="https://www.123865.com/s/NC0ejv-VpGUh" target="_blank" onclick="return useDownload()">
+                                            <font face="宋体" size="2" color="#228B22"><u>[立即下载]</u></font>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><font face="宋体" size="2"><b>CP-DOS</b></font></td>
+                                    <td><font face="宋体" size="2">16位</font></td>
+                                    <td><font face="宋体" size="2">2MB</font></td>
+                                    <td><font face="Courier New" size="2" color="#228B22"><b>srxU</b></font></td>
+                                    <td>
+                                        <a href="https://www.123865.com/s/NC0ejv-jpGUh" target="_blank" onclick="return useDownload()">
+                                            <font face="宋体" size="2" color="#228B22"><u>[立即下载]</u></font>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <br>
+                            <table width="100%" border="0" cellpadding="5" bgcolor="#FFF8DC">
+                                <tr>
+                                    <td>
+                                        <font face="宋体" size="2" color="#8B0000">
+                                        <b>⚠ 下载纪律：</b><br>
+                                        1. 每次点击"立即下载"将消耗1次下载配额<br>
+                                        2. 配额耗尽后需重新申请密钥<br>
+                                        3. 当前密钥：<span id="currentKeyDisplay" style="font-family: Courier New; color: #CC0000;">未生成</span>
+                                        </font>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- 页脚 -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#8B0000">
+    <tr>
+        <td align="center" style="padding: 20px;">
+            <table width="800" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center">
+                        <font face="宋体" size="2" color="#FFD700">
+                        <b>CCCPsoft 苏软操作系统公司</b><br>
+                        历史软件档案馆 | 莫斯科·北京<br>
+                        <font size="1">
+                        © 1991-2025 CCCPsoft. 所有历史软件仅供研究目的。<br>
+                        最后更新时间：2025年3月7日 | 系统版本：v2.1
+                        </font>
+                        </font>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- JavaScript功能 -->
+<script type="text/javascript">
+// 全局变量
+var currentKey = "";
+var remainingDownloads = 0;
+var currentCaptcha = "";
+var keyHistory = [];
+
+// 页面加载时初始化
+window.onload = function() {
+    refreshCaptcha();
+    updateClock();
+    setInterval(updateClock, 1000);
+};
+
+// 更新时钟（莫斯科时间）
+function updateClock() {
+    var now = new Date();
+    // 转换为莫斯科时间（UTC+3）
+    var moscowTime = new Date(now.getTime() + (3 * 60 * 60 * 1000));
+    var hours = String(moscowTime.getUTCHours()).padStart(2, '0');
+    var minutes = String(moscowTime.getUTCMinutes()).padStart(2, '0');
+    var seconds = String(moscowTime.getUTCSeconds()).padStart(2, '0');
+    
+    document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds;
+    document.getElementById("date").innerHTML = "1991-12-25";
+}
+
+// 生成随机验证码
+function refreshCaptcha() {
+    var chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+    var result = "";
+    for (var i = 0; i < 4; i++) {
+        var randomIndex = Math.floor(Math.random() * chars.length);
+        result += chars.charAt(randomIndex);
+    }
+    currentCaptcha = result;
+    document.getElementById("captchaText").innerHTML = result;
+}
+
+// 生成随机密钥片段
+function generateKeyPart() {
+    var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var result = "";
+    for (var i = 0; i < 4; i++) {
+        var randomIndex = Math.floor(Math.random() * chars.length);
+        result += chars.charAt(randomIndex);
+    }
+    return result;
+}
+
+// 生成密钥主函数
+function generateKey() {
+    var username = document.keyForm.username.value;
+    var org = document.keyForm.organization.value;
+    var userCaptcha = document.keyForm.captcha.value.toUpperCase();
+    
+    document.getElementById("successBox").style.display = "none";
+    document.getElementById("errorBox").style.display = "none";
+    
+    if (!username || username.length < 2) {
+        showError("请填写真实姓名（至少2个字符）");
+        return;
+    }
+    
+    if (!org || org.length < 2) {
+        showError("请填写所在单位（至少2个字符）");
+        return;
+    }
+    
+    if (userCaptcha !== currentCaptcha) {
+        showError("验证码错误！请重新输入右侧的4位字符");
+        refreshCaptcha();
+        document.keyForm.captcha.value = "";
+        return;
+    }
+    
+    var part1 = generateKeyPart();
+    var part2 = generateKeyPart();
+    var part3 = generateKeyPart();
+    var fullKey = "CCCP-" + part1 + "-" + part2 + "-" + part3;
+    
+    currentKey = fullKey;
+    remainingDownloads = 5;
+    
+    // 添加到历史记录
+    var now = new Date();
+    var timeStr = String(now.getHours()).padStart(2, '0') + ":" + String(now.getMinutes()).padStart(2, '0');
+    keyHistory.push({
+        time: timeStr,
+        user: username,
+        org: org,
+        key: fullKey,
+        used: 0
+    });
+    
+    updateHistoryTable();
+    
+    document.getElementById("generatedKey").innerHTML = fullKey;
+    document.getElementById("successBox").style.display = "block";
+    
+    updateSidebar();
+    unlockDownloadArea();
+    
+    document.keyForm.captcha.value = "";
+    refreshCaptcha();
+}
+
+// 更新历史记录表格
+function updateHistoryTable() {
+    var tbody = document.getElementById("historyTable");
+    if (keyHistory.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" align="center"><font face="宋体" size="2" color="#666666">暂无申请记录</font></td></tr>';
+        return;
+    }
+    
+    var html = "";
+    for (var i = keyHistory.length - 1; i >= 0; i--) {
+        var record = keyHistory[i];
+        var statusColor = record.used >= 5 ? "#FF0000" : "#00AA00";
+        var statusText = record.used >= 5 ? "已用完" : "有效";
+        
+        html += '<tr' + (i % 2 === 0 ? ' bgcolor="#F5F5F5"' : '') + '>' +
+                '<td><font face="宋体" size="2">' + record.time + '</font></td>' +
+                '<td><font face="宋体" size="2">' + record.user + '</font></td>' +
+                '<td><font face="宋体" size="2">' + record.org + '</font></td>' +
+                '<td><font face="Courier New" size="2">' + record.key + '</font></td>' +
+                '<td><font face="宋体" size="2" color="' + statusColor + '"><b>' + statusText + '</b></font></td>' +
+                '</tr>';
+    }
+    tbody.innerHTML = html;
+}
+
+// 显示错误
+function showError(msg) {
+    document.getElementById("errorText").innerHTML = msg;
+    document.getElementById("errorBox").style.display = "block";
+}
+
+// 更新侧边栏状态
+function updateSidebar() {
+    var html = '<font face="宋体" size="2" color="#00FF00"><b>✓ 密钥有效</b></font><br>' +
+               '<font face="宋体" size="2" color="#FFFFFF">' +
+               '密钥：' + currentKey.substring(0, 8) + '...<br>' +
+               '剩余：' + remainingDownloads + '次<br>' +
+               '<a href="#download" style="color: #FFD700;"><u>[去下载]</u></a>' +
+               '</font>';
+    document.getElementById("sidebarStatus").innerHTML = html;
+}
+
+// 解锁下载区域
+function unlockDownloadArea() {
+    document.getElementById("lockedArea").style.display = "none";
+    document.getElementById("unlockedArea").style.display = "block";
+    document.getElementById("downloadCount").innerHTML = remainingDownloads;
+    document.getElementById("currentKeyDisplay").innerHTML = currentKey;
+}
+
+// 验证密钥
+function verifyKey() {
+    var input = document.getElementById("verifyInput").value.toUpperCase();
+    var resultDiv = document.getElementById("verifyResult");
+    
+    var pattern = /^CCCP-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
+    
+    if (pattern.test(input)) {
+        // 检查是否是当前密钥
+        var isCurrent = (input === currentKey);
+        var extraMsg = isCurrent ? "<br><font color='#FFD700'>✓ 这是您当前持有的有效密钥</font>" : "";
+        
+        resultDiv.innerHTML = 
+            '<table width="100%" cellpadding="10" style="background-color: #228B22; border: 2px solid #00FF00;">' +
+            '<tr><td align="center">' +
+            '<font face="黑体" size="3" color="#FFD700"><b>✓ 密钥格式有效</b></font>' + extraMsg +
+            '<br><font face="宋体" size="2" color="#FFFFFF">该密钥通过基础验证<br>' +
+            '<a href="#download" style="color: #FFD700;"><u>[进入下载中心]</u></a></font>' +
+            '</td></tr></table>';
+        
+        if (!isCurrent) {
+            currentKey = input;
+            remainingDownloads = 5;
+            updateSidebar();
+            unlockDownloadArea();
+        }
+    } else {
+        resultDiv.innerHTML = 
+            '<table width="100%" cellpadding="10" style="background-color: #8B0000; border: 2px solid #FF0000;">' +
+            '<tr><td align="center">' +
+            '<font face="黑体" size="3" color="#FFD700"><b>✗ 密钥格式错误</b></font><br>' +
+            '<font face="宋体" size="2" color="#FFFFFF">正确格式：CCCP-XXXX-XXXX-XXXX<br>' +
+            '(X为大写字母或数字，共16位)</font>' +
+            '</td></tr></table>';
+    }
+}
+
+// 使用下载次数
+function useDownload() {
+    if (remainingDownloads > 0) {
+        remainingDownloads--;
+        document.getElementById("downloadCount").innerHTML = remainingDownloads;
+        updateSidebar();
+        
+        // 更新历史记录中的使用次数
+        if (keyHistory.length > 0) {
+            keyHistory[keyHistory.length - 1].used = 5 - remainingDownloads;
+            updateHistoryTable();
+        }
+        
+        if (remainingDownloads === 0) {
+            alert("⚠ 警告：这是您最后一次下载配额！\n\n密钥即将失效，请重新申请新密钥。");
+            setTimeout(function() {
+                document.getElementById("lockedArea").style.display = "block";
+                document.getElementById("unlockedArea").style.display = "none";
+                currentKey = "";
+                document.getElementById("sidebarStatus").innerHTML = 
+                    '<font face="宋体" size="2" color="#FF0000"><b>密钥已用完</b></font><br>' +
+                    '<font face="宋体" size="2" color="#FFFFFF">' +
+                    '<a href="#keygen" style="color: #FFD700;"><u>[重新申请]</u></a>' +
+                    '</font>';
+            }, 500);
+        }
+        return true;
+    } else {
+        alert("✗ 错误：下载配额已耗尽！\n请重新申请密钥。");
+        return false;
+    }
+}
+</script>
+
+</body>
+</html>
